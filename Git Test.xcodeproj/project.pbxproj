@@ -15,6 +15,7 @@
 		82192C001C0F6099000CE3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82192BFE1C0F6099000CE3FB /* LaunchScreen.storyboard */; };
 		82192C0B1C0F6099000CE3FB /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82192C0A1C0F6099000CE3FB /* Git_TestTests.m */; };
 		82192C161C0F6099000CE3FB /* Git_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82192C151C0F6099000CE3FB /* Git_TestUITests.m */; };
+		82192C251C0F6523000CE3FB /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 82192C241C0F6523000CE3FB /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		82192C111C0F6099000CE3FB /* Git TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82192C151C0F6099000CE3FB /* Git_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestUITests.m; sourceTree = "<group>"; };
 		82192C171C0F6099000CE3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82192C231C0F6523000CE3FB /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		82192C241C0F6523000CE3FB /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		82192BE41C0F6098000CE3FB = {
 			isa = PBXGroup;
 			children = (
+				82192C231C0F6523000CE3FB /* Test.h */,
+				82192C241C0F6523000CE3FB /* Test.m */,
 				82192BEF1C0F6099000CE3FB /* Git Test */,
 				82192C091C0F6099000CE3FB /* Git TestTests */,
 				82192C141C0F6099000CE3FB /* Git TestUITests */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82192BF81C0F6099000CE3FB /* ViewController.m in Sources */,
+				82192C251C0F6523000CE3FB /* Test.m in Sources */,
 				82192BF51C0F6099000CE3FB /* AppDelegate.m in Sources */,
 				82192BF21C0F6099000CE3FB /* main.m in Sources */,
 			);
